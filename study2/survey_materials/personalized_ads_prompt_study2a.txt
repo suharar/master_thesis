@@ -1,0 +1,13 @@
+Create personalized iPhone ads crafted for each of the 8 personality types below.
+Recognize that recipients are more likely to engage with ads that resonate with their personality traits. 
+Ensure adherence to a strict length requirement of 40 to 60 words per ad
+
+Personality Types:
+1. Low Extraversion: Reserved, Quiet, Shy, Introverted, Passive, Withdrawn, Solitary
+2. High Extraversion: Outgoing, Sociable, Talkative, Energetic, Enthusiastic, Assertive, Gregarious
+3. Low Agreeableness: Critical, Argumentative, Suspicious, Competitive, Self-centered, Uncooperative, Hostile
+4. High Agreeableness: Kind, Helpful, Trusting, Forgiving, Compassionate, Cooperative, Altruistic
+5. Low Conscientiousness: Careless, Disorganized, Lazy, Impulsive, Irresponsible, Procrastinating, Unreliable
+6. High Conscientiousness: Reliable, Organized, Hardworking, Efficient, Responsible, Disciplined, Perseverant
+7. Low Openness: Traditional, Conventional, Routine-oriented, Close-minded, Practical, Conservative, Simple
+8. High Openness: Creative, Imaginative, Curious, Original, Artistic, Open-minded, Intellectual

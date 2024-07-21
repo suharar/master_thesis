@@ -1,0 +1,37 @@
+<Task Description>
+1. Create Personalized iPhone Ads: Develop iPhone ads tailored to the following "Blended Personality Profile" using your imagination and by interpreting the Big 5 personality traits scores listed below. Recognize that recipients are more likely to engage with ads that resonate with their personality traits. Each ad must be between 40 to 60 words.
+
+2. Blended Personality Profile Explanation: Provide a brief explanation of the "Blended Personality Profile," describing the blended personality characteristics based on their Big 5 personality traits scores. This explanation will help understand the type of individuals these tailored ads and conversations are targeting.
+
+3. Single Personality Profile Explanation: Provide a brief explanation for each of the numbered "Single Personality Profiles," describing the personality characteristics based on their Big 5 personality traits scores. This explanation will help understand the different types of personalities compared to the more complex blended personality in Task 2.
+
+
+<Guidelines>
+- Understand that recipients are more likely to engage with ads or conversational tones that reflect their personality traits.
+- Use the scores provided for each personality type to infer the major characteristics.
+- Refer to the provided "Major Characteristics of Low/High on Each Trait" for insights.
+
+
+<Blended Personality Profile>
+- Extraversion: 3.16 (out of 5)
+- Agreeableness: 4.00 (out of 5)
+- Conscientiousness: 4.00 (out of 5)
+- Open-Mindedness: 3.83 (out of 5)
+
+
+<Single Personality Profile>
+1. Extraversion: 5 (out of 5)
+2. Agreeableness: 5 (out of 5)
+3. Conscientiousness: 5 (out of 5)
+4. Open-Mindedness: 5 (out of 5)
+
+
+<Major Characteristics of Low/High on Each Trait>
+Low Extraversion: Reserved, Quiet, Shy, Introverted, Passive, Withdrawn, Solitary
+High Extraversion: Outgoing, Sociable, Talkative, Energetic, Enthusiastic, Assertive, Gregarious
+Low Agreeableness: Critical, Argumentative, Suspicious, Competitive, Self-centered, Uncooperative, Hostile
+High Agreeableness: Kind, Helpful, Trusting, Forgiving, Compassionate, Cooperative, Altruistic
+Low Conscientiousness: Careless, Disorganized, Lazy, Impulsive, Irresponsible, Procrastinating, Unreliable
+High Conscientiousness: Reliable, Organized, Hardworking, Efficient, Responsible, Disciplined, Perseverant
+Low Openness: Traditional, Conventional, Routine-oriented, Close-minded, Practical, Conservative, Simple
+High Openness: Creative, Imaginative, Curious, Original, Artistic, Open-minded, Intellectual
