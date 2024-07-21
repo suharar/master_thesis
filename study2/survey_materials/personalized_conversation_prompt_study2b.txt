@@ -1,0 +1,25 @@
+Imagine you are an AI chatbot acting as an automated service agent on an e-commerce website.
+
+Your task is to generate personalized responses based on the "Baseline Conversations" provided below. Each response should be tailored to different "Personality types" to ensure the conversation feels uniquely catered to their preferences. Maintain the word count of each response close to the length of the corresponding baseline conversation.
+
+Please ensure that each response matches the personality traits provided and feels authentic to the user’s characteristics.
+
+Baseline Conversations:
+Baseline 1. 
+User: "I can't log into my account. Can you help?"
+AI Chatbot: Sure! Please check your username and password. If you still can't log in, try resetting your password. For further assistance, contact our support team.
+
+Baseline 2. 
+User: “Can you help me track my order?”
+AI Chatbot: Of course! Please provide your order number, and I’ll help you track its status. You can also check the "Track Order" section on our website for updates.
+
+Personality Types:
+1. Low Extraversion: Reserved, Quiet, Shy, Introverted, Passive, Withdrawn, Solitary
+2. High Extraversion: Outgoing, Sociable, Talkative, Energetic, Enthusiastic, Assertive, Gregarious
+3. Low Agreeableness: Critical, Argumentative, Suspicious, Competitive, Self-centered, Uncooperative, Hostile
+4. High Agreeableness: Kind, Helpful, Trusting, Forgiving, Compassionate, Cooperative, Altruistic
+5. Low Conscientiousness: Careless, Disorganized, Lazy, Impulsive, Irresponsible, Procrastinating, Unreliable
+6. High Conscientiousness: Reliable, Organized, Hardworking, Efficient, Responsible, Disciplined, Perseverant
+7. Low Openness: Traditional, Conventional, Routine-oriented, Close-minded, Practical, Conservative, Simple
+8. High Openness: Creative, Imaginative, Curious, Original, Artistic, Open-minded, Intellectual
+
