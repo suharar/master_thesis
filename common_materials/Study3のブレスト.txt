@@ -119,6 +119,41 @@ Blended広告のメリットが整理できていないため、EX特化広告�
 データの取り方に問題がある可能性は否めませんが、時間と予算の制約からデータの取り直しはできません。
 
 
+メモ
+ResponseId                     ：Participants' unique id
+OP_distance                    ：abs(all participants' median OP score(of big 5 trait test) - this participant's OP score)
+OP_distance_from_max           ：abs(max OP score = 5(of big 5 trait test) - this participant's OP score)
+CO_distance                    ：abs(all participants' median CO score(of big 5 trait test) - this participant's CO score)	
+CO_distance_from_max           ：abs(max CO score = 5(of big 5 trait test) - this participant's CO score)	
+EX_distance                    ：abs(all participants' median EX score(of big 5 trait test) - this participant's EX score)	
+EX_distance_from_max           ：abs(max EX score = 5(of big 5 trait test) - this participant's EX score)	
+AG_distance                    ：abs(all participants' median AG score(of big 5 trait test) - this participant's AG score)	
+AG_distance_from_max           ：abs(max AG score = 5(of big 5 trait test) - this participant's AG score)	
+total_distance                 ：sum(distance between each trait score across all participants and every participant's score for each trait)	
+average_distance               ：ave(distance between each trait score across all participants and every participant's score for each trait)		
+Ads_OP_1                       ：each participant's response score to "The tone of Ad B fits better with who I am." max score = 100, and Ad B refers to text ad tailored to blended personality (median scores across 4 traits in big 5 trait for all participant). Ad A refers to the ad tailer to a single trait, in this case tailoered to a personality with OP score = 5(max).
+Ads_OP_2                       ：each participant's response score to "Overall, I find Ad B more believable and trustworthy." where Ad A is tailored to a OP = 5(max).
+Ads_OP_3                       ：each participant's response score to "Overall, I like Ad B better." where Ad A is tailored to a OP = 5(max).
+Ads_OP_4                       ：each participant's response score to "Ad B is more persuasive" where Ad A is tailored to a OP = 5(max).	
+Ads_OP_5                       ：each participant's response score to "Ad B has made me more interested in the product." where Ad A is tailored to a OP = 5(max).		
+Ads_OP_6                      ：each participant's response score to "I am more likely to click on Ad B." where Ad A is tailored to a OP = 5(max).		
+Ads_CO_1                      ：refer to Ads_OP_1 and replace OP part to CO
+Ads_CO_2                      ：refer to Ads_OP_2 and replace OP part to CO	
+Ads_CO_3                      ：refer to Ads_OP_3 and replace OP part to CO
+.                             ：skipping descriptions as they can be interpreted in the same manner to Ads_CO_1 ~ 3
+.                             ：skipping descriptions as they can be interpreted in the same manner to Ads_CO_1 ~ 3
+.                             ：skipping descriptions as they can be interpreted in the same manner to Ads_CO_1 ~ 3
+Ads_AG_6                      ：skipping descriptions as they can be interpreted in the same manner to Ads_CO_1 ~ 3	
+Desc_OP_1                     ：this is used for another study
+Desc_CO_1                     ：this is used for another study	
+Desc_EX_1                     ：this is used for another study	
+Desc_AG_1                     ：this is used for another study	
+EX_distance_from_max_scaled   ：EX_distance_from_max scaled within the range of 0 to 1
+OP_distance_from_max_scaled   ：as above for OP
+CO_distance_from_max_scaled   ：as above for CO
+AG_distance_from_max_scaled   ：as above for AG	
+average_distance_scaled       ：as above for average_distance
+
 
 
 
