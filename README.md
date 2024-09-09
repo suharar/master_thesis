@@ -1,10 +1,15 @@
 # Large Language Models in Marketing: A Dual-Phase Assessment of Personality Detection and Content Personalization
 
 ## Abstract
-This study provides an in-depth analysis of the capabilities and limitations of large language models (LLMs), such as GPT-4o and Claude 3.5 Sonnet, in psychological targeting and personalized marketing. We assess these models across two critical phases: the processing phase, which focuses on customer profile construction through text-based personality detection, and the content personalization phase, where targeted advertisements and chatbot responses are generated. Our results demonstrate that LLMs outperform traditional state-of-the-art (SOTA) models in detecting Myers-Briggs Type Indicator (MBTI) personality traits, especially under zero-shot learning conditions, although they exhibit significant biases in predicting dimensions like Sensing and Judging due to inherent linguistic and behavioral complexities. In the personalization phase, LLMs effectively enhance user engagement and perceived personalization in single-trait ad targeting for traits like Extraversion and Agreeableness from the Big Five Personality traits (OCEAN). However, the models show notable limitations in handling blended personality profiles, often resulting in a reduced effectiveness compared to single-trait approaches. This highlights a critical gap in their ability to integrate multiple personality dimensions into a cohesive marketing strategy. The findings underscore the transformative potential of LLMs in advancing personalized marketing, while also pointing to the need for further refinement to overcome current challenges and ethical concerns associated with AI-driven personalization. Future research should focus on incorporating behavioral data, optimizing multi-trait targeting strategies, and ensuring transparent, ethical implementations in marketing practices. 
+This study critically examines the potential and limitations of large language models (LLMs), such as GPT-4o and Claude 3.5 Sonnet, in the realm of psychological targeting and personalized marketing. We evaluate these models across two key phases: the processing phase, which involves constructing customer profiles through text-based personality detection, and the personalization phase, where targeted advertisements and chatbot responses are generated. Our findings indicate that LLMs outperform traditional state-of-the-art (SOTA) models in detecting Myers-Briggs Type Indicator (MBTI) personality traits, particularly under zero-shot learning (ZSL) conditions where fine-tuning is impractical. However, notable biases are observed, especially in predicting Sensing-Intuition and Judging-Perceiving dimensions, reflecting the limitations of text-based analysis in fully capturing human personality nuances. In the personalization phase, LLMs show effectiveness in single-trait ad targeting, enhancing perceived personalization and engagement for traits like Extraversion. However, their ability to generate content for blended personality profiles is limited, often reducing effectiveness compared to single-trait approaches. Similarly, in chatbot interactions, personalized responses tailored to different personality traits did not significantly enhance perceived personalization, underscoring the challenges in achieving nuanced and authentic consumer engagement through AI. These findings highlight the transformative potential of LLMs in personalized marketing, while also pointing to critical gaps that require further refinement. Future research should focus on integrating behavioral and multi-modal data, optimizing multi-trait targeting and chatbot strategies, and ensuring ethical AI implementation in marketing practices. 
 
 ## Purpose of this repository
 This repository contains all the materials and code developed for this master’s thesis. It is provided to ensure transparency and reproducibility of the study.
+
+## Details for each study
+- [Study1](study1/README.md)
+- [Study2](study2/README.md)
+- [Study3](study3/README.md)
 
 ## Folder structure
 ```
@@ -40,20 +45,15 @@ master_thesis/
 │   │   ├── result_claude_exactDist.xlsx
 │   │   ├── result_GPT35.xlsx
 │   │   ├── result_GPT35_exactDist.xlsx
-│   │   ├── result_GPT4.xlsx
 │   │   ├── result_GPT4o.xlsx
 │   │   ├── result_GPT4o_exactDist.xlsx
-│   │   ├── sample (2).xlsx
-│   │   ├── sample.xlsx
-│   │   ├── sample1.png
-│   │   ├── sample2.png
-│   │   ├── sample3.png
 │   │   ├── sample_forFeeding.xlsx
 │   │   ├── sample_forFeeding_exactDist.xlsx
 │   │   ├── sample_forFeeding_exactDist_for_claude_2nd_half.xlsx
 │   │   ├── sample_forFeeding_exactDist_for_claude_3rd_half.xlsx
 │   │   ├── sample_forFeeding_for_claude_2nd_half.xlsx
-│   │   └── sample_forFeeding_pilot.xlsx
+│   │   ├── sample_forFeeding_pilot.xlsx
+│   │   └── ...
 │   └── transformed/
 │       ├── claude_result_accuracy.xlsx
 │       ├── claude_result_accuracy_exactDist.xlsx
@@ -77,16 +77,7 @@ master_thesis/
 │   ├── presentation_materials/
 │   │   └── ...
 │   ├── tmp/
-│   │   ├── study2a_1_results.csv
-│   │   ├── study2a_2_results.csv
-│   │   ├── study2a_2_results_linear.csv
-│   │   ├── study2a_2_results_quadratic.csv
-│   │   ├── study2a_3_credibility_results.csv
-│   │   ├── study2a_3_personalization_results.csv
-│   │   ├── study2a_3_personalization_results_quadratic.csv
-│   │   ├── study2a_4_results.csv
-│   │   ├── study2b_2_results.csv
-│   │   └── study2b_3_results.csv
+│   │   └── ...
 │   ├── raw/
 │   │   ├── Study2_June_14_2024_17.29.csv
 │   │   └── Study2_June_14_2024_17.29_final.xlsx
@@ -98,9 +89,10 @@ master_thesis/
 │   ├── notebooks/
 │   │   └── 00_result_analysis/
 │   │       └── study_3_result_analysis.ipynb
-│   ├── presentation_for_paper/
+│   ├── presentation_materials/
 │   │   └── ...
 │   ├── raw/
+│   │   ├── 20240721_prolific_export.csv
 │   │   ├── big5_scores.csv
 │   │   ├── mixed_trait_scores.csv
 │   │   ├── socioecono_scores.csv
@@ -112,15 +104,4 @@ master_thesis/
 └── thesis_latex/
     └── Thesis title (1).zip
 ```
-
-## Details for each study
-- [Study1](study1/README.md)
-- [Study2](study2/README.md)
-- [Study3](study3/README.md)
-
-
-
-
-
-
 
