@@ -56,15 +56,15 @@ To run `performance_assessment.ipynb`, configure the following variables:
 
 #### 2.2. In-depth Analysis of S-N and J-P Dimensions
 We utilized the `study1/notebooks/02_analysis/00_overall_performance_review/justification_analysis.ipynb` notebook for an in-depth analysis of the S-N and J-P dimensions. This analysis included:
-- Extracting and preprocessing justifications for the S-N and J-P dimensions from model outputs
-- Calculating frequencies of specific keywords and phrases associated with each dimension
-- Visualizing keyword frequency distributions using bar plots and heatmaps
-- Comparing keyword usage across different models (GPT-4, GPT-3.5, and Claude)
-- Analyzing correlations between keyword usage and correct predictions
-- Examining common phrases and patterns in the justifications
-- Identifying potential biases or tendencies in the models' reasoning processes
-- Evaluating consistency of justifications across different personality types
-- Assessing quality and depth of justifications provided by each model
-- Exploring relationships between justification length and prediction accuracy
+- Extracting and preprocessing original texts and justifications for the S-N and J-P dimensions from model outputs
+- Calculating frequencies of specific keywords and phrases associated with each dimension in both original texts and justifications
+- Visualizing keyword frequency distributions using bar plots and heatmaps for both original texts and justifications
+- Comparing keyword usage across different models (GPT-4, GPT-3.5, and Claude) in original texts and justifications
+- Analyzing correlations between keyword usage in original texts and justifications with correct predictions
+- Examining common phrases and patterns in the original texts and justifications
+- Identifying potential biases or tendencies in the models' reasoning processes based on original texts and justifications
+- Evaluating consistency of original texts and justifications across different personality types
+- Assessing quality and depth of original texts and justifications provided by each model
+- Exploring relationships between original text length, justification length, and prediction accuracy
 
 This notebook contains the original code for `Figure 4.3`, `Figure 4.4`, `Figure 4.5`, `Figure 4.6`, `Figure 4.7`, `Figure 4.8`, `Figure 4.9`, and `Figure 7.3`.
